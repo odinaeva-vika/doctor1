@@ -257,6 +257,10 @@ body {
   overflow: hidden;
 }
 
+picture {
+  display: contents;
+}
+
 .button {
   margin: 0 auto;
   max-width: 401px;
@@ -1058,11 +1062,11 @@ body {
 }
 
 .use__box {
-  max-width: 442px;
   margin: 12px 0 19px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
   gap: 8px;
 }
 
@@ -1263,6 +1267,9 @@ body {
 }
 
 .comments__name-dictor {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: item2;
   padding-left: 12px;
   font-family: "Dosis", sans-serif;
   font-size: 18px;
