@@ -1084,7 +1084,7 @@ body {
 }
 
 .use__text {
-  margin: 0 0 0 10px;
+  margin-left: 10px;
   max-width: 420px;
   font-size: 18px;
   line-height: 132.02%;
@@ -1417,14 +1417,39 @@ body {
   text-decoration-line: underline;
 }
 
+@media (max-width: 427px) {
+  .use-item1 {
+    margin-left: 10px;
+  }
+}
+
 @media (max-width: 425px) {
   .contents__item_dot:before {
     bottom: 32px;
   }
 }
 
+@media (max-width: 391px) {
+  .nutrition__text {
+    padding-left: 10px;
+  }
+}
+
 @media (max-width: 369px) {
   .top__img {
     width: 120px;
+  }
+}
+
+@media (max-width: 363px) {
+  .doctor__text {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 362px) {
+  .doctor__title {
+    text-align: inherit;
   }
 }
