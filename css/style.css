@@ -112,6 +112,14 @@ html {
           box-sizing: inherit;
 }
 
+picture {
+  display: contents;
+}
+
+source {
+  display: contents;
+}
+
 a {
   vertical-align: baseline;
   background: transparent;
@@ -255,10 +263,6 @@ body {
 
 .stop-scroll {
   overflow: hidden;
-}
-
-picture {
-  display: contents;
 }
 
 .button {
